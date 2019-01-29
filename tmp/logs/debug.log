@@ -238,3 +238,47 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
 [main] - APP/webroot/index.php, line 140
 
+2019-01-29 18:02:55 Notice: Notice (8): Undefined variable: terms in [/var/www/html/app/View/Users/register.ctp, line 186]
+Trace:
+include - APP/View/Users/register.ctp, line 186
+View::_evaluate() - CORE/Cake/View/View.php, line 1033
+View::_render() - CORE/Cake/View/View.php, line 997
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 18:03:07 Notice: Notice (8): Undefined variable: terms in [/var/www/html/app/View/Users/register.ctp, line 186]
+Trace:
+include - APP/View/Users/register.ctp, line 186
+View::_evaluate() - CORE/Cake/View/View.php, line 1033
+View::_render() - CORE/Cake/View/View.php, line 997
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 18:03:21 Notice: Notice (8): Undefined variable: terms in [/var/www/html/app/View/Users/register.ctp, line 186]
+Trace:
+include - APP/View/Users/register.ctp, line 186
+View::_evaluate() - CORE/Cake/View/View.php, line 1033
+View::_render() - CORE/Cake/View/View.php, line 997
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 18:03:30 Notice: Notice (8): Undefined variable: terms in [/var/www/html/app/View/Users/register.ctp, line 186]
+Trace:
+include - APP/View/Users/register.ctp, line 186
+View::_evaluate() - CORE/Cake/View/View.php, line 1033
+View::_render() - CORE/Cake/View/View.php, line 997
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+

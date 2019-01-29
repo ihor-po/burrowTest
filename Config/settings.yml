@@ -49,8 +49,8 @@ invite.yahoo_consumer_key: >
     dj0yJmk9MFlSemwzcFRNYXF6JmQ9WVdrOU1ISlBTRk5rTjJVbWNHbzlPREk0TXpZMk1UWXkmcz1jb25zdW1lcnNlY3JldCZ4PWQ2
 invite.yahoo_secret_key: 309d66712b0e3d6d51c675a3b1ca03ca829a8b60
 is_page_speed_enabled: 1
-linkedin.consumer_key: 86x4fla85c5nqu
-linkedin.consumer_secret: ROTUHFvI5kOrYpcm
+linkedin.consumer_key: 9wb2yhmlvt9n
+linkedin.consumer_secret: T3jL7EI0qJ5bfoD6
 linkedin.is_enabled_linkedin_connect: 1
 mail.is_smtp_enabled: 0
 mail.smtp_host: 
@@ -111,7 +111,7 @@ s3.keep_copy_in_local: 0
 s3.upload_static_content_enabled: 0
 share.facebook: 'Check out this website ##SITE_NAME## ##SHARE_URL##'
 share.twitter: 'Check out this property ##PROPERTY_NAME## ##SHARE_URL##'
-site.contact_email: info@photoigor.name 
+site.contact_email: 
 site.currency_id: 1
 site.currency_symbol_place: right
 site.date.format: %b %d, %Y
