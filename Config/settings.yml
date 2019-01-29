@@ -25,7 +25,7 @@ facebook.app_id: 152575094815970
 facebook.fb_access_token: >
     152575094815970|29b71cceed4e35b10b201465.1-100002427863037|-1IK9E5E7XQxR_1gkXWZuQJitHY
 facebook.fb_user_id: 100002427863037
-facebook.is_enabled_facebook_connect: 1
+facebook.is_enabled_facebook_connect: 0
 facebook.page_id: 219299451443212
 facebook.secrect_key: 41565c9584f21c156ba11fbf78ab47fd
 facebook.site_facebook_url: 
@@ -34,12 +34,12 @@ google_analytics.access_token:
 google_analytics.profile_id: 63232568
 google.consumer_key: 1061226080208.apps.googleusercontent.com
 google.consumer_secret: 5dUnvSsVNnLmodPW41Fjn3F5
-google.is_enabled_google_connect: 1
+google.is_enabled_google_connect: 0
 google.translation_api_key: 
 googleplus.consumer_key: >
     261544905009-k0q92ngg9812q9fq831ckcuoddgt2eqp.apps.googleusercontent.com
 googleplus.consumer_secret: h9al8t_gV7Gm_CFC6fMwjGsT
-googleplus.is_enabled_googleplus_connect: 1
+googleplus.is_enabled_googleplus_connect: 0
 Hook.bootstraps: >
     SecurityQuestions,LaunchModes,MobileApp,Translation,Wallet,Withdrawals,Properties,PropertyFavorites,PropertyFlags
 HtmlCache.is_htmlcache_enabled: 0
@@ -64,7 +64,7 @@ messages.is_send_internal_message: 1
 messages.send_notification_mail_for_sender: 0
 meta.description: dev1 framework
 meta.keywords: agriya, dev1
-openid.is_enabled_openid_connect: 1
+openid.is_enabled_openid_connect: 0
 pre_launch.bg_image: 
 pre_launch.bg_image_stretch_type : Stretch
 properties.max_upload_photo: 5
@@ -187,7 +187,7 @@ thumb_size.very_big_thumb.height: 361
 thumb_size.very_big_thumb.width: 957
 twitter.consumer_key: 
 twitter.consumer_secret: 
-twitter.is_enabled_twitter_connect: 1
+twitter.is_enabled_twitter_connect: 0
 twitter.prompt_for_email_after_register: 1
 twitter.site_twitter_url: 
 twitter.site_user_access_key: 4RhHRYARjruDW4XS5EjJohlwV48nSrgIefbpx5Ov8s
@@ -220,4 +220,4 @@ widget.browse_script:
 widget.footer_script: '<img src="http://placehold.it/728X90" alt ="728X90" width="728" height="90"/>'
 widget.property_script: 
 widget.user_script: '<img src="http://placehold.it/728X90" alt ="728X90" width="728" height="90"/>'
-yahoo.is_enabled_yahoo_connect: 1
+yahoo.is_enabled_yahoo_connect: 0
