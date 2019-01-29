@@ -8,9 +8,9 @@ affiliate.site_commission_type: amount
 barcode.height: 120
 barcode.is_barcode_enabled: 1
 barcode.width: 120
-captcha.challenge_key: oR.X9IGEcuYNu3pk7m.ZN7BiD-M-vHFp
-captcha.hash_key: G9VT4C021Q1ExAKN8Wltf.cxMX-V9wfG
-captcha.verification_key: 00MsxSO3v0GQRB8TFPla0rY9dzeovpSd
+captcha.challenge_key: P89S4C-1dWuZz1GifaGd2nVOQdPWA393
+captcha.hash_key: 5KmE0ig47jJcu.MCw9tfpn3UNGFO8aNN
+captcha.verification_key: Ec5k6mKpdTsmqmhwLr36cOqaHW8ajr0q
 cdn.css: 
 cdn.images: 
 cdn.is_cdn_enabled: 0
@@ -49,8 +49,8 @@ invite.yahoo_consumer_key: >
     dj0yJmk9MFlSemwzcFRNYXF6JmQ9WVdrOU1ISlBTRk5rTjJVbWNHbzlPREk0TXpZMk1UWXkmcz1jb25zdW1lcnNlY3JldCZ4PWQ2
 invite.yahoo_secret_key: 309d66712b0e3d6d51c675a3b1ca03ca829a8b60
 is_page_speed_enabled: 1
-linkedin.consumer_key: 9wb2yhmlvt9n
-linkedin.consumer_secret: T3jL7EI0qJ5bfoD6
+linkedin.consumer_key: 86x4fla85c5nqu
+linkedin.consumer_secret: ROTUHFvI5kOrYpcm
 linkedin.is_enabled_linkedin_connect: 1
 mail.is_smtp_enabled: 0
 mail.smtp_host: 
@@ -111,7 +111,7 @@ s3.keep_copy_in_local: 0
 s3.upload_static_content_enabled: 0
 share.facebook: 'Check out this website ##SITE_NAME## ##SHARE_URL##'
 share.twitter: 'Check out this property ##PROPERTY_NAME## ##SHARE_URL##'
-site.contact_email: 
+site.contact_email: info@photoigor.name 
 site.currency_id: 1
 site.currency_symbol_place: right
 site.date.format: %b %d, %Y
