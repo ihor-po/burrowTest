@@ -1,0 +1,120 @@
+2019-01-29 06:14:18 Notice: Notice (8): Undefined index: adcopy_challenge in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 06:14:18 Notice: Notice (8): Undefined index: adcopy_response in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 06:14:36 Notice: Notice (8): Undefined index: adcopy_challenge in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 06:14:36 Notice: Notice (8): Undefined index: adcopy_response in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 06:15:55 Notice: Notice (8): Undefined index: adcopy_challenge in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 06:15:55 Notice: Notice (8): Undefined index: adcopy_response in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 06:16:18 Notice: Notice (8): Undefined index: adcopy_challenge in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 06:16:18 Notice: Notice (8): Undefined index: adcopy_response in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 10:48:41 Notice: Notice (8): Undefined index: adcopy_challenge in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 10:48:41 Notice: Notice (8): Undefined index: adcopy_response in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 11:14:20 Notice: Notice (8): Undefined index: adcopy_challenge in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-29 11:14:20 Notice: Notice (8): Undefined index: adcopy_response in [/var/www/html/app/Model/AppModel.php, line 677]
+Trace:
+AppModel::_isValidCaptchaSolveMedia() - APP/Model/AppModel.php, line 677
+UsersController::register() - APP/Controller/UsersController.php, line 163
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 210
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+

@@ -1,0 +1,133 @@
+2019-01-28 16:34:51 Error: [MissingControllerException] Controller class AdminersController could not be found.
+#0 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-28 16:34:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/html/core/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#1 /var/www/html/core/lib/Cake/Model/Model.php(3290): ConnectionManager::getDataSource('default')
+#2 /var/www/html/core/lib/Cake/Model/Model.php(1094): Model->setDataSource('default')
+#3 /var/www/html/core/lib/Cake/Model/Model.php(3316): Model->setSource('banned_ips')
+#4 /var/www/html/core/lib/Cake/Model/Model.php(2744): Model->getDataSource()
+#5 /var/www/html/app/Model/AppModel.php(92): Model->find('first', Array)
+#6 /var/www/html/app/Model/BannedIp.php(100): AppModel->find('first', Array)
+#7 /var/www/html/app/Controller/AppController.php(263): BannedIp->checkIsIpBanned('90.32.69.244')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 /var/www/html/core/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/html/core/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(207): Controller->startupProcess()
+#12 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(185): Dispatcher->_invoke(Object(DevsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-01-28 16:34:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/html/core/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#1 /var/www/html/core/lib/Cake/Model/Model.php(3290): ConnectionManager::getDataSource('default')
+#2 /var/www/html/core/lib/Cake/Model/Model.php(1094): Model->setDataSource('default')
+#3 /var/www/html/core/lib/Cake/Model/Model.php(3316): Model->setSource('banned_ips')
+#4 /var/www/html/core/lib/Cake/Model/Model.php(2744): Model->getDataSource()
+#5 /var/www/html/app/Model/AppModel.php(92): Model->find('first', Array)
+#6 /var/www/html/app/Model/BannedIp.php(100): AppModel->find('first', Array)
+#7 /var/www/html/app/Controller/AppController.php(263): BannedIp->checkIsIpBanned('90.32.69.244')
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 /var/www/html/core/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/html/core/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(207): Controller->startupProcess()
+#12 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(185): Dispatcher->_invoke(Object(DevsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-01-28 17:17:26 Error: [NotFoundException] Invalid request
+#0 [internal function]: ImagesController->view('icon-info-detai...')
+#1 /var/www/html/core/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#2 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(210): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(185): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-01-28 17:28:25 Error: [MissingControllerException] Controller class AdminsController could not be found.
+#0 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-01-28 17:37:48 Warning: Warning (2): fopen(/var/www/html/app/tmp/cache/views/map/1/Property.map): failed to open stream: No such file or directory in [/var/www/html/core/lib/Cake/View/View.php, line 547]
+Trace:
+fopen - [internal], line ??
+View::_permanentCache() - CORE/Cake/View/View.php, line 547
+View::render() - CORE/Cake/View/View.php, line 493
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-28 17:37:48 Warning: Warning (2): fwrite() expects parameter 1 to be resource, boolean given in [/var/www/html/core/lib/Cake/View/View.php, line 548]
+Trace:
+fwrite - [internal], line ??
+View::_permanentCache() - CORE/Cake/View/View.php, line 548
+View::render() - CORE/Cake/View/View.php, line 493
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-28 17:37:48 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [/var/www/html/core/lib/Cake/View/View.php, line 549]
+Trace:
+fclose - [internal], line ??
+View::_permanentCache() - CORE/Cake/View/View.php, line 549
+View::render() - CORE/Cake/View/View.php, line 493
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-28 17:38:06 Error: [NotFoundException] Invalid request
+#0 [internal function]: ImagesController->view('payment-icon.pn...')
+#1 /var/www/html/core/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#2 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(210): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(185): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-01-28 17:38:06 Error: [NotFoundException] Invalid request
+#0 [internal function]: ImagesController->view('icon-folder-clo...')
+#1 /var/www/html/core/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#2 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(210): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(185): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-01-28 17:38:14 Error: [NotFoundException] Invalid request
+#0 [internal function]: ImagesController->view('icon-folder-clo...')
+#1 /var/www/html/core/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#2 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(210): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(185): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-01-28 17:38:14 Error: [NotFoundException] Invalid request
+#0 [internal function]: ImagesController->view('payment-icon.pn...')
+#1 /var/www/html/core/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#2 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(210): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/core/lib/Cake/Routing/Dispatcher.php(185): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/app/webroot/index.php(140): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-01-28 22:53:11 Warning: Warning (2): fopen(/var/www/html/app/tmp/cache/views/map/1/Property.map): failed to open stream: No such file or directory in [/var/www/html/core/lib/Cake/View/View.php, line 547]
+Trace:
+fopen - [internal], line ??
+View::_permanentCache() - CORE/Cake/View/View.php, line 547
+View::render() - CORE/Cake/View/View.php, line 493
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-28 22:53:11 Warning: Warning (2): fwrite() expects parameter 1 to be resource, boolean given in [/var/www/html/core/lib/Cake/View/View.php, line 548]
+Trace:
+fwrite - [internal], line ??
+View::_permanentCache() - CORE/Cake/View/View.php, line 548
+View::render() - CORE/Cake/View/View.php, line 493
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
+2019-01-28 22:53:11 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [/var/www/html/core/lib/Cake/View/View.php, line 549]
+Trace:
+fclose - [internal], line ??
+View::_permanentCache() - CORE/Cake/View/View.php, line 549
+View::render() - CORE/Cake/View/View.php, line 493
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 224
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 185
+[main] - APP/webroot/index.php, line 140
+
